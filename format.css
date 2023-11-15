@@ -1,0 +1,84 @@
+
+QWidget {
+    background: #262D37;
+}
+
+QLabel {
+    font-size: 12px;
+    font-weight: bold;
+    color: #00BFFF
+}
+
+QLineEdit {
+    font-size: 12px;
+    padding: 1px;
+    color: #00BFFF;
+    border: 2px solid #00BFFF;
+    border-radius: 8px;
+}
+
+QComboBox {
+    color: #00BFFF;
+    background-color: #262D37;
+    font-size: 12px;
+    font-weight: bold;
+    border: 2px solid #00BFFF;
+    border-radius: 3px;
+    padding: 1px 18px 1px 3px;
+    min-width: 6em;
+}
+
+    QComboBox::drop-down {
+        background: #262D37;
+        color: #00BFFF;
+        subcontrol-origin: padding;
+        subcontrol-position: top right;
+        width: 15px;
+        border-left-width: 1px;
+        border-left-color: #00BFFF;
+        border-left-style: solid;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+    }
+
+    QComboBox::down-arrow {
+        image: url(down_arrow.jpg);
+        width: 16px;
+        height: 16px;
+        border: 2px solid #00BFFF;
+        border-radius: 3px;
+    }
+
+    QComboBox QScrollBar:vertical {
+        background: #262D37;
+        color: #00BFFF;
+        width: 20px;
+    }
+
+    QComboBox QScrollBar::handle:vertical {
+        background: #262D37;
+        border: 1px solid #00BFFF;
+        border-radius: 5px;
+    }
+
+    QComboBox QAbstractItemView {
+        color: #00BFFF;
+        background-color: #262D37;
+        border: 1px solid #00BFFF;
+    }
+
+QPushButton {
+    font-size: 12px;
+    font-weight: bold;
+    color: #00BFFF;
+    border: 2px solid #00BFFF;
+    border-radius: 4px;
+}
+
+    QPushButton:hover {
+        background-color: #2980b9;
+    }
+
+    QPushButton:pressed {
+        background-color: #2c3e50;
+    }
